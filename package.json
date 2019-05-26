@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.1",
+    "jest-enzyme": "^7.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-test-renderer": "^16.8.6",
+    "redux-observable": "^1.1.0",
+    "redux-saga": "^1.0.2",
+    "rxjs": "^6.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
