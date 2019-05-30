@@ -16,6 +16,10 @@ export default function plants(state = initialState, action) {
         return {
             plants: []
         }
+        case actionTypes.FETCH_PLANT_FULFILLED:
+        return {
+            plants: action.data
+        }
         default: return state;
     };
 }
